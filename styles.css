@@ -10,6 +10,10 @@ body{
 	background-color: #f9f9f9;
 }
 
+section{
+	background-color: skyblue;
+}
+
 .navbar {
 	background-color: #34495e;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
