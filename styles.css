@@ -781,3 +781,19 @@ p{
   text-decoration: underline;
 }
 
+
+/*Responesive Design for Sign-in*/
+@media (max-width: 480px){
+  .signin-container {
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+  }
+
+  .signin-header h1 {
+    font-size: 1.8;
+  }
+
+  .social-signin{
+    flex-direction: column;
+  }
+}
