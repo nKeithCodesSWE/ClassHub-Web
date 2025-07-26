@@ -114,9 +114,7 @@ height: 100vh;
   padding: 0.7rem 1.5rem;
   border-radius: 5px;
   cursor: pointer;
-  transition:
-    background-color 0.3s ease,
-    transform 0.2 ease;
+  transition: background-color 0.3s ease, transform 0.2 ease;
   margin-left: 1rem;
   flex-shrink: 0;
 }
@@ -601,3 +599,185 @@ height: 100vh;
 p{
   font-size: 25px;
 }
+
+/*Css for Sign-in.html*/
+.main-hero4 {
+  background: linear-gradient(135deg, #1dd1a1 0%, #55a3ff 100%);
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.main-hero4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.signin-container {
+  background: white;
+  padding: 3rem 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 450px;
+  position: relative;
+  z-index: 2;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.signin-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.signin-header h1 {
+  color: #34495e;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.signin-header p{
+  color: #7f8c8d;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.signin-form {
+  margin-bottom: 1.5rem;
+}
+
+.form-group{
+ margin-bottom: 1.5rem;
+}
+
+.form-group label{
+  display: block;
+  color: #34495e;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.form-group input{
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e8f0fe;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3 ease;
+  background-color: #f8f9fa;
+  box-sizing: border-box;
+}
+
+
+.form-group input:focus {
+  outline: none;
+  border-color: #3498db;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.signin-button {
+  width: 100%;
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signin-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+}
+
+.forgot-password {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.forgot-password a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  text-align: center;
+  margin: 2rem 0;
+  position: relative;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #e8f0fe;
+}
+
+.divider span {
+  background: white;
+  padding: 0 1rem;
+}
+
+.social-signin {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.social-button {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid #e8f0fe;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  text-decoration: none;
+  color: #34495e;
+}
+
+.social-button:hover{
+  border-color: #3498db;
+  transform: translateY(1px);
+}
+
+.signup-link a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
