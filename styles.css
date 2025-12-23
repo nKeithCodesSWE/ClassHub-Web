@@ -151,7 +151,7 @@ height: 100vh;
   flex-direction: column;
   justify-content: center;
   color: white;
-  postition: relative;
+  position: relative;
 }
 
 .hero-brand {
